@@ -1,4 +1,5 @@
 ActiveAdmin.register Family do
+  permit_params :family_name
 
 
   # See permitted parameters documentation:
